@@ -53,6 +53,11 @@ async function loadAndDisplayRecipes() {
         card.appendChild(recipeName);
         card.appendChild(details);
         recipesContainer.appendChild(card);
+
+        // Добавляем обработчик клика для мобильных устройств
+        card.addEventListener('click', () => {
+            details.classList.toggle('show-details');
+        });
     });
 }
 
