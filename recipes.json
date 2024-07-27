@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Шоколадний торт",
+        "components": [
+            {"name": "Борошно", "quantity": 2},
+            {"name": "Цукор", "quantity": 1.5},
+            {"name": "Масло", "quantity": 0.5},
+            {"name": "Яйця", "quantity": 4},
+            {"name": "Молоко", "quantity": 1},
+            {"name": "Шоколад", "quantity": 2},
+            {"name": "Розпушувач", "quantity": 0.1},
+            {"name": "Ваніль", "quantity": 0.2}
+        ]
+    },
+    {
+        "name": "Полуничний торт",
+        "components": [
+            {"name": "Борошно", "quantity": 2.5},
+            {"name": "Цукор", "quantity": 1},
+            {"name": "Масло", "quantity": 1},
+            {"name": "Яйця", "quantity": 3},
+            {"name": "Вершки", "quantity": 2},
+            {"name": "Полуниця", "quantity": 1}
+        ]
+    }
+]
