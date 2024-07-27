@@ -44,7 +44,7 @@ async function loadAndDisplayRecipes() {
 
         recipe.components.forEach(component => {
             const componentElem = document.createElement('li');
-            componentElem.textContent = `${component.name}: ${component.quantity}`;
+            componentElem.innerHTML = `${component.name}: ${component.quantity} <span>₴${(componentPrices[component.name] || 0).toFixed(2)}</span>`;
             componentsList.appendChild(componentElem);
         });
 

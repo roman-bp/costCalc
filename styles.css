@@ -92,6 +92,8 @@ h1 {
 
 .card .components-list li {
     margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card .total-cost {
